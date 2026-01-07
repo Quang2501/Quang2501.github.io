@@ -8,6 +8,17 @@ function smth() {
     }
 };
 
+function smth() {
+    let inputPswd = document.getElementById("hi").value;
+    let correctPswd = "blue";
+    if (inputPswd === correctPswd) {
+        location.replace("https://drive.google.com/file/d/10WUdNC79ir-u9PyHXiRLbw7gNXbWGtJy/view?usp=sharing")
+    } else {
+        alert("Incorrect password!");
+    }
+};
+
+
 document.addEventListener('mousemove', function (e) {
 const cave = document.querySelector('.cave');
 const x = e.clientX;
@@ -65,5 +76,6 @@ cave.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 10
                return false;
            }
        }
+
 
 
