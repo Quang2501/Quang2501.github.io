@@ -1,23 +1,18 @@
 function smth() {
     let inputPswd = document.getElementById("hi").value;
-    let correctPswd = "chesser";
-    if (inputPswd === correctPswd) {
+    let correctPswd1 = "chesser";
+    let correctPswd2 = "blue";
+    let correctPswd3 = "8866940951";
+    if (inputPswd === correctPswd1) {
         location.replace("https://drive.google.com/file/d/1ya2oZs3K18xo7kmQzTltso1P8f6sWFzz/view?usp=sharing")
-    } else {
-        alert("Incorrect password!");
-    }
-};
-
-function smth() {
-    let inputPswd = document.getElementById("hi").value;
-    let correctPswd = "blue";
-    if (inputPswd === correctPswd) {
+    } else if (inputPswd === correctPswd2) {
         location.replace("https://drive.google.com/file/d/10WUdNC79ir-u9PyHXiRLbw7gNXbWGtJy/view?usp=sharing")
+    } else if (inputPwsd === correctPwsd3) {
+        location.replace("https://www.w3schools.com/js/js_if_else.asp")
     } else {
         alert("Incorrect password!");
     }
 };
-
 
 document.addEventListener('mousemove', function (e) {
 const cave = document.querySelector('.cave');
@@ -76,6 +71,7 @@ cave.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 10
                return false;
            }
        }
+
 
 
 
